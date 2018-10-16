@@ -3,10 +3,10 @@
 <h2><%= @team.motto %></h2>
 
 <h3>Members:</h3>
-<% @superheroes.each do |ship| %>
-  <div class="ship">
-    <p>Name: <%= ship.name %></p><br>
-    <p>Type: <%= ship.type %></p><br>
-    <p>Booty: <%= ship.booty %></p>
+<% @superheroes.each do |hero| %>
+  <div class="hero">
+    <p>Name: <%= hero.name %></p><br>
+    <p>Power: <%= hero.power %></p><br>
+    <p>Biography: <%= hero.bio %></p>
   </div><br>
 <% end %>
