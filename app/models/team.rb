@@ -5,6 +5,7 @@ class Team
   TEAMS = []
 
   def initialize(args)
+    @name = args[:name]
     TEAMS << self
   end
 
