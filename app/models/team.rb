@@ -1,9 +1,11 @@
-class Team 
+class Team
 
   attr_accessor :name, :motto
 
-  def initialize
+  TEAMS = []
 
+  def initialize(args)
+    TEAMS << self
   end
 
 end
